@@ -1,11 +1,11 @@
 /*eslint-disable*/
 
-export function taskFirst() {
+export default function taskFirst() {
 	const task = 'I prefer const when I can.';
 	return task;
 }
   
-export function taskNext() {
+export default function taskNext() {
 	let combination = 'But sometimes let';
 	combination += getLast();
 	return combination;
