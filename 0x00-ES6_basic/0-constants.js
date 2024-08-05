@@ -5,13 +5,8 @@ export function taskFirst() {
 	return task;
 }
   
-  export function getLast() {
-	return ' is okay';
-}
-  
-  export function taskNext() {
+export function taskNext() {
 	const combination = 'But sometimes let';
 	combination += getLast();
-  
 	return combination;
 }
