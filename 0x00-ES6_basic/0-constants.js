@@ -3,11 +3,11 @@ function taskFirst() {
 	return task;
 }
 
-module.export = taskFirst;
+module.exports = taskFirst;
 
 function taskNext() {
 	let task = "But sometimes let is okay";
 	return task;
 }
 
-module.export = taskName;
+module.exports = taskName;
