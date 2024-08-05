@@ -10,4 +10,4 @@ function taskNext() {
 	return task;
 }
 
-module.exports = taskName;
+module.exports = taskNext;
