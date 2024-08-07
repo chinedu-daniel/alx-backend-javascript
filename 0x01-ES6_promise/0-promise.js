@@ -9,4 +9,5 @@ function getResponseFromAPI() {
 		} else {
 			reject(new Error(
 		}
-	});
+	}
+});
