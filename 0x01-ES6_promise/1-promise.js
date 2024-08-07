@@ -1,5 +1,6 @@
 /*eslint-disable*/
-export default getFullResponseFromAPI(success) {
+
+export default function getFullResponseFromAPI(success) {
 	return new Promise((resolve, reject) => {
 		if (success) {
 			resolve({
@@ -7,7 +8,7 @@ export default getFullResponseFromAPI(success) {
 				body: 'Success'
 			});
 		} else {
-			reject(new Error('The fake API is not working ccurrently'
+			reject(new Error('The fake API is not working currently'));
 		}
 	});
 }
