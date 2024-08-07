@@ -1,5 +1,3 @@
-/* eslint-disable */
-
 import { uploadPhoto, createUser } from './utilis';
 
 export default function handleProfileSignup() {
