@@ -18,7 +18,7 @@ export default class Airport {
 		return this._code;
 	}
 
-	set name(value) {
+	set code(value) {
 		this._code = value;
 	}
 
