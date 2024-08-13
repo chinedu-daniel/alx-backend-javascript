@@ -1,9 +1,13 @@
 /* eslint-disable */
 
-export default function groceriesList(arr) {
-	const myGroceries = new Map(arr);
-	myGroceries["name"];
-	myGroceries["quantity"];
+export default function groceriesList() {
+	const myGroceries = {
+		Apples: 10,
+		Tomatoes: 10,
+		Pasta: 1,
+		Rice: 1,
+		Banana: 5,
+	};
 
 	return myGroceries;
 }
