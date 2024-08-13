@@ -1,7 +1,9 @@
 /* eslint-disable */
 
 export default function groceriesList(arr) {
-	const contacts = new Map(arr);
+	const myGroceries = new Map(arr);
+	myGroceries["name"];
+	myGroceries["quantity"];
 
-	return contacts;
+	return myGroceries;
 }
