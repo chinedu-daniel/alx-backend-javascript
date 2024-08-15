@@ -1,6 +1,11 @@
 #!/usr/bin/env python3
-'''a type-annotated function that takes a float and returns their sum'''
+"""
+Basic annotations - add
+"""
 
-def add(float: a, b) -> float:
-    '''the class that takes this input'''
-    return a + b;
+
+def add(a: float, b: float) -> float:
+    """
+    function to add two floats
+    """
+    return a + b
