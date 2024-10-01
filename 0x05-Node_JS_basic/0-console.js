@@ -1,0 +1,9 @@
+#!/usr/bin/node
+/**
+ * Node task
+ */
+
+const displayMessage = (message) => {
+    console.log(message);
+};
+module.exports = displayMessage;
