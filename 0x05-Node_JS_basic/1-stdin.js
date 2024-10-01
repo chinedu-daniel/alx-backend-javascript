@@ -1,5 +1,7 @@
 #!/usr/bin/node
-// Using Process stdin
+/**
+ * using process stdin
+ */
 
 // Import the required process module
 process.stdout.write('Welcome to Holberton School, what is your name?\n');
