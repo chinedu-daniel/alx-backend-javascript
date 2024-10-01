@@ -1,7 +1,4 @@
 #!/usr/bin/node
-/**
- * Create a small HTTP server using Node's HTTP module
- */
 const http = require('http');
 const app = http.createServer();
 
