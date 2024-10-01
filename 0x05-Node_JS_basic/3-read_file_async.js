@@ -3,7 +3,7 @@
  * Reading a file asynchronously with Node JS
  */
 
-const fs = require('fs');
+const fs = require('fs').promises;
 
 const countStudents = async (path) => {
   const CS = [];
